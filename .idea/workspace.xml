@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd9b3931-d0ad-4d54-b88e-63a776e48166" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TestApp3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example_test.py" afterDir="false" />
+    <list default="true" id="dd9b3931-d0ad-4d54-b88e-63a776e48166" name="Changes" comment="Open the Wikipedia and search Python page where we expect that title = &quot;Python&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/example_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GorgeousD"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GorgeousD/TestApp3.git",
+    "accountId": "8ccc1e6a-4bec-4e40-aef4-86ee91e30950"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -38,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.example_test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
@@ -59,6 +68,19 @@
       <option name="presentableId" value="Default" />
       <updated>1749504856679</updated>
     </task>
+    <task id="LOCAL-00001" summary="Open the Wikipedia and search Python page where we expect that title = &quot;Python&quot;">
+      <option name="closed" value="true" />
+      <created>1749505844786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749505844786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Open the Wikipedia and search Python page where we expect that title = &quot;Python&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Open the Wikipedia and search Python page where we expect that title = &quot;Python&quot;" />
   </component>
 </project>

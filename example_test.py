@@ -1,10 +1,21 @@
-import re
-from playwright.sync_api import Page, expect
+from playwright.sync_api import sync_playwright, expect
+import datetime
 
-def test_has_title(page: Page):
-    page.goto("https://wikipedia.org")
-    page.get_by_role("searchbox", name="Search Wikipedia").click()
-    page.get_by_role("searchbox", name="Search Wikipedia").fill("Python")
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=False)
+    page = browser.new_page()
+
+    # Открываем страницу Wikipedia
+    page.goto("https://www.wikipedia.org/")
+
+    # Вводим запрос и нажимаем кнопку поиска
+    page.fill('input[name="search"]', "Python")
     page.get_by_role("button", name="Search").click()
-    page.screenshot(path="screenshot.png")
-    expect(page).to_have_title(re.compile("Python"))
+
+    # Проверяем заголовок
+    expect(page).to_have_title("Python — Википедия")
+    print("Успех: заголовок совпадает")
+
+    # Скриншот
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    page.screenshot(path=f"screenshot_{timestamp}.png")
